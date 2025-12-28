@@ -85,112 +85,12 @@ border-radius:50%;font-size:24px;text-decoration:none
 </nav>
 
 <!-- SLIDER IMAGE (WORKING) -->
-<div class="slider">
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Shuttering Image Slider</title>
-
-<style>
-body{
-  margin:0;
-  font-family: Arial, sans-serif;
-  background:#f5f9ff;
-}
-
-.slider{
-  width:90%;
-  max-width:900px;
-  height:450px;
-  margin:40px auto;
-  position:relative;
-  overflow:hidden;
-  border-radius:12px;
-  box-shadow:0 10px 30px rgba(0,0,0,0.2);
-  background:#fff;
-}
-
-.slides{
-  display:flex;
-  width:100%;
-  height:100%;
-  transition:0.8s ease-in-out;
-}
-
-.slides img{
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  flex-shrink:0;
-}
-
-.nav{
-  position:absolute;
-  top:50%;
-  transform:translateY(-50%);
-  font-size:30px;
-  color:white;
-  background:rgba(0,0,0,0.5);
-  padding:8px 14px;
-  cursor:pointer;
-  user-select:none;
-  border-radius:50%;
-}
-
-.prev{ left:15px; }
-.next{ right:15px; }
-
-</style>
-</head>
-
-<body>
-
-<h2 style="text-align:center;color:#0a4da2;">
-Premium Shuttering Work – Shree Vaibhav Laxmi Enterprises
-</h2>
-
-<div class="slider">
-  <div class="slides" id="slides">
-    <img src="https://github.com/user-attachments/assets/944c38f8-b8a5-4f48-b8cd-0c13844d840a?raw=1">
-    <img src="https://github.com/user-attachments/assets/1cf7d82b-50fd-445d-84f9-0c162c8377a5?raw=1">
-    <img src="https://github.com/user-attachments/assets/3308c587-5c2f-4281-9156-2b61418ddb23?raw=1">
-    <img src="https://github.com/user-attachments/assets/c1f44811-16c9-4517-b4c5-103a5714ae12?raw=1">
-    <img src="https://github.com/user-attachments/assets/8bc11eaf-31f7-45d5-9a08-a5464ca999f2?raw=1">
-    <img src="https://github.com/user-attachments/assets/e2ac43b5-1363-46ed-8cc9-a891abaa4c77?raw=1">
-  </div>
-
-  <div class="nav prev" onclick="moveSlide(-1)">❮</div>
-  <div class="nav next" onclick="moveSlide(1)">❯</div>
-</div>
-
-<script>
-let index = 0;
-const slides = document.getElementById("slides");
-const total = slides.children.length;
-
-function moveSlide(step){
-  index += step;
-  if(index < 0) index = total - 1;
-  if(index >= total) index = 0;
-  slides.style.transform = `translateX(-${index * 100}%)`;
-}
-
-// Auto slide
-setInterval(()=>{
-  moveSlide(1);
-}, 3500);
-</script>
-
-</body>
-</html>
-</div>
-
+<h2>SHREE VAIBHAV LAXMI ENTERPRISES 
 <section id="about">
 <h2>About Us</h2>
 <div class="box">
 <b>Shree Vaibhav Laxmi Enterprises</b> is a Trusted Shuttering & Construction Contractor Based in Ghatkopar, Mumbai.
-Led by <b>Mr. Nitin C. Patel</b>, We Deliver Strong, Safe and Premium Quality Shuttering Solutions.
+Led by <b>Mr. Nitin C. Patel(Contractor & Civil Engineer</b>, We Deliver Strong, Safe and Premium Quality Shuttering Solutions.
 </div>
 </section>
 
